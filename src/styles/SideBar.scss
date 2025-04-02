@@ -1,0 +1,84 @@
+// Sidebar styles
+.sidebar-container {
+  padding: 0;
+  height: 100vh;
+  overflow-y: auto;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.sidebar {
+  padding: 20px;
+  
+  .app-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    
+    span {
+      margin-left: 10px;
+    }
+    
+    .close-sidebar {
+      margin-left: auto;
+      background: none;
+      border: none;
+      color: white;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  }
+  
+  .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    padding: 10px 5px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    
+    &:hover, &.active {
+      color: white;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 4px;
+    }
+  }
+}
+
+// Main content styles
+.main-content {
+  padding: 20px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.content-section {
+  margin-bottom: 30px;
+  
+  h2 {
+    font-size: 24px;
+    font-weight: bold;
+  }
+}
+
+.search-container {
+  width: 200px;
+  
+  .search-input {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(159, 40, 40, 0.1);
+    color: white;
+    
+    &::placeholder {
+      color: rgba(255, 255, 255, 0.5);
+    }
+    
+    &:focus {
+      outline: none;
+      background-color: rgba(255, 255, 255, 0.2);
+    }
+  }
+}

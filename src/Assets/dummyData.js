@@ -1,0 +1,77 @@
+
+ const dummyData = [
+    {
+      id: 1,
+      title: "Millionaire",
+      artistName: "Yo Yo Honey Singh",
+      thumbnail: "https://cdn-images.dzcdn.net/images/cover/3db4fa323683ca7ad1289891962db565/0x1900-000000-80-0-0.jpg",
+      musicUrl: "https://pagalfree.com/musics/128-Millionaire - Glory 128 Kbps.mp3",
+      duration: "3:19",
+    },
+    {
+      id: 2,
+      title: "Daku",
+      artistName: "Siddhu Moose Wala",
+      thumbnail: "https://i.pinimg.com/736x/8c/be/f7/8cbef7af042f82b961cdce9c06ba8ab0.jpg",
+      musicUrl: "https://pagalfree.com/musics/128-Tribute 295 - Kumaar 128 Kbps.mp3",
+      duration: "5:24",
+    },
+    {
+      id: 3,
+      title: "Dream On",
+      artistName: "Aerosmith",
+      thumbnail: "https://i.pinimg.com/564x/7f/79/f8/7f79f85798e3a2695f0fa6d60736d3c7.jpg",
+      musicUrl: "https://pagallworld.co.in/wp-content/uploads/2023/12/Dream-On.mp3",
+      duration: "6:23",
+    },
+    {
+      id: 4,
+      title: "Pushpa Pushpa",
+      artistName: "Milka Singh",
+      thumbnail: "https://pagalfree.com/images/128Pushpa Pushpa - Pushpa 2 The Rule 128 Kbps.jpg",
+      musicUrl: "https://pagalfree.com/musics/128-Pushpa Pushpa - Pushpa 2 The Rule 128 Kbps.mp3",
+      duration: "4:30",
+    },
+    {
+      id: 5,
+      title: "Jaane Tu",
+      artistName: "A.R Rahman",
+      thumbnail: "https://pagalfree.com/images/128Jaane Tu - Chhaava 128 Kbps.jpg",
+      musicUrl: "https://pagalfree.com/musics/128-Jaane Tu - Chhaava 128 Kbps.mp3",
+      duration: "4:23",
+    },
+    {
+      id: 6,
+      title: "Ki Honda Pyar",
+      artistName: "Arijit Singh",
+      thumbnail: "https://pagalfree.com/images/128Ki Honda Pyaar (Arijit Singh Version) - Jabariya Jodi 128 Kbps.jpg",
+      musicUrl: "https://pagalfree.com/musics/128-Ki Honda Pyaar (Arijit Singh Version) - Jabariya Jodi 128 Kbps.mp3",
+      duration: "5:32",
+    },
+    {
+      id: 7,
+      title: "Pachtaoge",
+      artistName: "Arijit Singh",
+      thumbnail: "https://pagalfree.com/images/128Pachtaoge - Arijit Singh 128 Kbps.jpg",
+      musicUrl: "https://pagalfree.com/musics/128-Pachtaoge - Arijit Singh 128 Kbps.mp3",
+      duration: "2:23",
+    },
+    {
+      id: 8,
+      title: "Khudaya",
+      artistName: "Manoj Muntashir",
+      thumbnail: "https://pagalfree.com/images/128Khudaya - Sarfira 128 Kbps.jpg",
+      musicUrl: "https://pagalfree.com/musics/128-Khudaya - Sarfira 128 Kbps.mp3",
+      duration: "3:12",
+    },
+    {
+      id: 9,
+      title: "Jaan Nisaar",
+      artistName: "Manoj Muntashir",
+      thumbnail: "https://pagalfree.com/images/128Jaan ‘Nisaar (Arijit) - Kedarnath 128 Kbps.jpg",
+      musicUrl: "https://pagalfree.com/musics/128-Jaan ‘Nisaar (Arijit) - Kedarnath 128 Kbps.mp3",
+      duration: "3:00",
+    },
+  ];
+
+  export default dummyData;
